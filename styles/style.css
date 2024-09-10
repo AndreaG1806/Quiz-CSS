@@ -1,0 +1,58 @@
+body {
+    background-color: lightblue;
+  }
+
+div {
+    background: rgba(0, 128, 0, 0.3) /* Green background with 30% opacity */
+  }
+
+div {
+    background-color: green;
+    opacity: 0.3;
+  }
+
+
+h1 {
+    background-color: green;
+  }
+  
+  div {
+    background-color: lightblue;
+  }
+  
+  p {
+    background-color: yellow;
+  }
+
+  body {
+    background-image: url("paper.gif");
+  }
+
+  body {
+    background-image: url("img_tree.png");
+    background-repeat: no-repeat;
+    background-position: right top;
+  }
+
+  body {
+    background-image: url("img_tree.png");
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: scroll;
+  }
+
+  body {
+    background: #ffffff url("img_tree.png") no-repeat right top;
+  }
+
+  p.dotted {border-style: dotted;}
+p.dashed {border-style: dashed;}
+p.solid {border-style: solid;}
+p.double {border-style: double;}
+p.groove {border-style: groove;}
+p.ridge {border-style: ridge;}
+p.inset {border-style: inset;}
+p.outset {border-style: outset;}
+p.none {border-style: none;}
+p.hidden {border-style: hidden;}
+p.mix {border-style: dotted dashed solid double;}
