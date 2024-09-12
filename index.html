@@ -1,185 +1,103 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Todo sobre Videojuegos</title>
     <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 </head>
 <body>
 
-    <h1 style="font-size:300%;">Todo lo que debes saber de los videojuegos</h1>
-    <p style="font-size:160%;">Historia y datos curiosos:.</p>
+    <!-- Título Principal -->
+    <header>
+        <h1>Todo lo que debes saber de los Videojuegos</h1>
+        <p>Historia, datos curiosos, y evolución de los videojuegos a lo largo de los años.</p>
+    </header>
 
-    <img src="Imagenes/Videojuego.jpg" width="1000" height="500" center>
+    <!-- Imagen Principal -->
+    <section>
+        <img src="Imagenes/Videojuego.jpg" alt="Imagen de Videojuegos" width="100%" height="auto">
+    </section>
 
-    <h2>Bordes CSS</h2>
-    <p>This property specifies what kind of border to display:</p>
-    
-    <p class="dotted">A dotted border.</p>
-    <p class="dashed">A dashed border.</p>
-    <p class="solid">A solid border.</p>
-    <p class="double">A double border.</p>
-    <p class="groove">A groove border.</p>
-    <p class="ridge">A ridge border.</p>
-    <p class="inset">An inset border.</p>
-    <p class="outset">An outset border.</p>
-    <p class="none">No border.</p>
-    <p class="hidden">A hidden border.</p>
-    <p class="mix">A mixed border.</p>
+    <!-- Sección de Historia de los Videojuegos -->
+    <section>
+        <h2>Historia de los Videojuegos</h2>
+        <p>Los videojuegos han evolucionado enormemente desde sus inicios en la década de 1950. Desde las simples máquinas arcade hasta los complejos juegos de realidad virtual de hoy en día, la historia de los videojuegos es una narrativa de innovación y creatividad.</p>
+        <table>
+            <tr>
+                <th>Año</th>
+                <th>Evento Importante</th>
+                <th>Descripción</th>
+            </tr>
+            <tr>
+                <td>1958</td>
+                <td>Creación del primer videojuego</td>
+                <td>"Tennis for Two", creado por William Higinbotham, es considerado uno de los primeros videojuegos de la historia.</td>
+            </tr>
+            <tr>
+                <td>1972</td>
+                <td>Lanzamiento de Pong</td>
+                <td>Atari lanza "Pong", un juego de arcade que se convierte en un fenómeno cultural y comercial.</td>
+            </tr>
+            <tr>
+                <td>1980</td>
+                <td>Lanzamiento de Pac-Man</td>
+                <td>"Pac-Man" es lanzado por Namco, convirtiéndose en uno de los juegos más icónicos de todos los tiempos.</td>
+            </tr>
+        </table>
 
-    <h2>The border-width Property</h2>
-<p>The border-width property can have from one to four values (for the top border, right border, bottom border, and the left border):</p>
+        <div class="imagenes-videojuegos">
+            <figure>
+                <img src="Imagenes/Mario.jpg" alt="Super Mario" width="300">
+                <figcaption>Super Mario</figcaption>
+            </figure>
+            <figure>
+                <img src="Imagenes/Pacman.webp" alt="Pac-Man" width="300">
+                <figcaption>Pac-Man</figcaption>
+            </figure>
+            <figure>
+                <img src="Imagenes/Zelda.jpg" alt="The Legend of Zelda" width="300">
+                <figcaption>The Legend of Zelda</figcaption>
+            </figure>
+        </div>
+    </section>
 
-<p class="one">Some text.</p>
+    <!-- Sección de Bordes y Estilos -->
+    <section>
+        <h2>Ejemplos de Estilos de Bordes en CSS con Información de Videojuegos</h2>
+        <p class="dotted">El icónico borde punteado es como los píxeles de los primeros juegos retro, como "Space Invaders".</p>
+        <p class="dashed">El borde de guiones representa los caminos segmentados en juegos de carreras clásicos como "Out Run".</p>
+        <p class="solid">El borde sólido es tan robusto como el primer nivel de "Super Mario Bros.".</p>
+        <p class="double">El borde doble es como tener dos vidas en "Contra", siempre hay un segundo intento.</p>
+        <p class="groove">El borde en relieve recuerda a los detalles de las paredes de los castillos en "The Legend of Zelda".</p>
+        <p class="ridge">El borde con cresta se asemeja a los contornos tridimensionales de los juegos de "DOOM".</p>
+        <p class="inset">El borde insertado recuerda a los pozos y trampas en "Prince of Persia".</p>
+        <p class="outset">El borde emergente es como los power-ups que aparecen en "Pac-Man".</p>
+        <p class="none">Sin borde, como los juegos de mundo abierto que no tienen límites, como "The Elder Scrolls V: Skyrim".</p>
+        <p class="hidden">Borde oculto, como los niveles secretos en "Sonic the Hedgehog".</p>
+        <p class="mix">Un borde mixto tan diverso como los mundos en "Kingdom Hearts".</p>
 
-<h2>The border-color Property</h2>
-<p>The color of the border can also be specified using HSL values:</p>
+        <h3>Propiedad border-width</h3>
+        <p class="one">Este borde grueso es tan fuerte como las paredes del castillo de "Bowser" en "Super Mario Bros.". </p>
 
-<p class="two">A solid blue border</p>
+        <h3>Propiedad border-color con HSL</h3>
+        <p class="two">El borde azul sólido utiliza HSL, evocando el océano de "The Legend of Zelda: Wind Waker".</p>
 
-<h2>Individual Border Sides</h2>
-<p class="one">A solid grey border</p>
+        <h3>Bordes Individuales</h3>
+        <p class="three">Borde sólido gris para una sola dirección, como los caminos en "SimCity".</p>
 
-<h2>The border-bottom Property</h2>
-<p>This property is a shorthand property for border-bottom-width, border-bottom-style, and border-bottom-color.</p
+        <h3>Propiedad border-radius</h3>
+        <p class="normal">Un borde normal, tan simple como los primeros niveles de "Tetris".</p>
+        <p class="round1">Borde redondeado, como las curvas en "Mario Kart".</p>
+        <p class="round2">Borde más redondeado, recordando las burbujas de "Bubble Bobble".</p>
+        <p class="round3">Borde aún más redondeado, como las monedas en "Sonic the Hedgehog".</p>
+    </section>
 
-
-<h2>The border-radius Property</h2>
-<p>This property is used to add rounded borders to an element:</p>
-
-<p class="normal">Normal border</p>
-<p class="round1">Round border</p>
-<p class="round2">Rounder border</p>
-<p class="round3">Roundest border</p>
-
-<div>
-    <p class="ex1">This paragraph has an inherited left margin (from the div element).</p>
-    </div>
-
-    <p>In this example the h1 element has a bottom margin of 50px and the h2 element has a top margin of 20px. So, the vertical margin between h1 and h2 should have been 70px (50px + 20px). However, due to margin collapse, the actual margin ends up being 50px.</p>
-
-    <h4>Heading 1</h4>
-    <h5>Heading 2</h5>
-
-    <h2>Padding and element width - with box-sizing</h2>
-
-<div class="ex1">This div is 300px wide.</div>
-<br>
-
-<div class="ex2">The width of this div remains at 300px, in spite of the 50px of total left and right padding, because of the box-sizing: border-box property.
-</div>
-
-<h2>Set the max-width of an element</h2>
-
-<div>This div element has a height of 100px and a max-width of 500px.</div>
-
-<p>Resize the browser window to see the effect.</p>
-
-<h2>Calculate the total width:</h2>
-
-<img src="klematis4_big.jpg" width="350" height="263" alt="Klematis">
-<div>The picture above is 350px wide. The total width of this element is also 350px. The total height of this element is 80px.</div>
-
-
-<h1>This is a Heading</h1>
-<p>This page has a grey background color and a blue text.</p>
-<div>This is a div.</div>
-
-<h1>CSS font-family</h1>
-<p class="p1">This is a paragraph, shown in the Times New Roman font.</p>
-<p class="p2">This is a paragraph, shown in the Arial font.</p>
-<p class="p3">This is a paragraph, shown in the Lucida Console font.</p>
-
-<title>Google Icons</title>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-</head>
-<body>
-
-<h1>Google icon library</h1>
-
-<p>Some Google icons:</p>
-<i class="material-icons">cloud</i>
-<i class="material-icons">favorite</i>
-<i class="material-icons">attachment</i>
-<i class="material-icons">computer</i>
-<i class="material-icons">traffic</i>
-<br><br>
-
-<p>Styled Google icons (size and color):</p>
-<i class="material-icons" style="font-size:24px;">cloud</i>
-<i class="material-icons" style="font-size:36px;">cloud</i>
-<i class="material-icons" style="font-size:48px;color:red;">cloud</i>
-<i class="material-icons" style="font-size:60px;color:lightblue;">cloud</i>
-
-<h1>Styling Lists With Colors</h1>
-
-<ol>
-  <li>Coffee</li>
-  <li>Tea</li>
-  <li>Coca Cola</li>
-</ol>
-
-<ul>
-  <li>Coffee</li>
-  <li>Tea</li>
-  <li>Coca Cola</li>
-</ul>
-
-<div class="header">
-    <h1>My Website</h1>
-    <p>Resize the browser window to see the effect.</p>
-  </div>
-  
-  <div class="topnav">
-    <a href="#">Link</a>
-    <a href="#">Link</a>
-    <a href="#">Link</a>
-    <a href="#" style="float:right">Link</a>
-  </div>
-  
-  <div class="row">
-    <div class="leftcolumn">
-      <div class="card">
-        <h2>TITLE HEADING</h2>
-        <h5>Title description, Dec 7, 2017</h5>
-        <div class="fakeimg" style="height:200px;">Image</div>
-        <p>Some text..</p>
-        <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
-      </div>
-      <div class="card">
-        <h2>TITLE HEADING</h2>
-        <h5>Title description, Sep 2, 2017</h5>
-        <div class="fakeimg" style="height:200px;">Image</div>
-        <p>Some text..</p>
-        <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
-      </div>
-    </div>
-    <div class="rightcolumn">
-      <div class="card">
-        <h2>About Me</h2>
-        <div class="fakeimg" style="height:100px;">Image</div>
-        <p>Some text about me in culpa qui officia deserunt mollit anim..</p>
-      </div>
-      <div class="card">
-        <h3>Popular Post</h3>
-        <div class="fakeimg"><p>Image</p></div>
-        <div class="fakeimg"><p>Image</p></div>
-        <div class="fakeimg"><p>Image</p></div>
-      </div>
-      <div class="card">
-        <h3>Follow Me</h3>
-        <p>Some text..</p>
-      </div>
-    </div>
-  </div>
-  
-  <div class="footer">
-    <h2>Footer</h2>
-  </div>
-  
+    <footer>
+        <h2>Contacto</h2>
+        <p>Si deseas saber más sobre la historia de los videojuegos, puedes seguirnos en nuestras redes sociales.</p>
+    </footer>
 
 </body>
 </html>
